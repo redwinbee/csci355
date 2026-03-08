@@ -13,6 +13,8 @@ function createFiles() {
         fs.writeFile(`output/${i}-output.txt`, 'Data-1\n', (err) => {
             if (err) {
                 console.error(err);
+            } else {
+                console.log(`${i}-output.txt`);
             }
         });
     }

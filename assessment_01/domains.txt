@@ -1,0 +1,5 @@
+xkcd.com
+google.com
+yahoo.com
+killedbygoogle.com
+rsync.net
