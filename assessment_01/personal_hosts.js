@@ -18,7 +18,7 @@ fs.readFile('domains.txt', 'utf-8', (err, data) => {
                 return;
             }
 
-            hosts[i] = records[i];
+            hosts[i] = records[0];
         });
     }
 
